@@ -1,0 +1,10 @@
+/.project
+/.settings
+/bundle/.settings
+/bundle/target
+/bundle/.classpath
+/bundle/.project
+/content/.settings
+/content/target
+/content/.classpath
+/content/.project
