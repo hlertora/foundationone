@@ -20,6 +20,7 @@
     <packaging>content-package</packaging>
 
     <build>
+    	<sourceDirectory>src/main/content/jcr_root</sourceDirectory>
         <resources>
             <resource>
                 <directory>src/main/content/jcr_root</directory>
@@ -69,6 +70,11 @@
             <artifactId>foundationone-bundle</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>aem-api</artifactId>
+        </dependency>
+        
     </dependencies>
     <profiles>
         <profile>
