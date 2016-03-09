@@ -45,21 +45,18 @@
                 <groupId>com.day.jcr.vault</groupId>
                 <artifactId>content-package-maven-plugin</artifactId>
                 <extensions>true</extensions>
-                <configuration>
-                    <group>com.mrm</group>
-                    <filters>
-                        <filter>
-                            <root>/apps/apps</root>
-                        </filter>
-                    </filters>
+                 <configuration>
+                    <filterSource>${basedir}/META-INF/vault/filter.xml</filterSource>
+                    <verbose>true</verbose>
+                    <failOnError>true</failOnError>
+                    <group>foundationone</group>
                     <embeddeds>
                         <embedded>
-                            <groupId>${project.groupId}</groupId>
+                            <groupId>com.mrm</groupId>
                             <artifactId>foundationone-bundle</artifactId>
-                            <target>/apps/apps/install</target>
+                            <target>/apps/foundationone/install</target>
                         </embedded>
                     </embeddeds>
-                    <targetURL>http://${crx.host}:${crx.port}/crx/packmgr/service.jsp</targetURL>
                 </configuration>
             </plugin>
         </plugins>
