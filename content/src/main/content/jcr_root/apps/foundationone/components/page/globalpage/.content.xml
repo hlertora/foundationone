@@ -3,4 +3,5 @@
     jcr:primaryType="cq:Component"
     jcr:title="foundationone Page"
     sling:resourceSuperType="wcm/foundation/components/page"
-    componentGroup=".hidden"/>
+    componentGroup=".hidden"
+    test="hjghjgh"/>

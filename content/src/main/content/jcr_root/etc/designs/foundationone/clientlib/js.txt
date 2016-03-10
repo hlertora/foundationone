@@ -1,3 +1,7 @@
-#base=source
+#base=scripts
 
-mycustom.js
+main.js
+plugins.js
+vendor.js
+modernizr.js
+

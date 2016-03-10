@@ -8,7 +8,5 @@
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="NewArchetype Demo Site"
-        sling:resourceType="wcm/core/components/designer">
-        
-	</jcr:content>
+        sling:resourceType="wcm/core/components/designer"/>
 </jcr:root>

@@ -1,2 +1,3 @@
 #base=css
-static.css
+main.css
+vendor.css
