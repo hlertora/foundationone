@@ -3,10 +3,10 @@
     jcr:description="Generic template for foundationone Pages"
     jcr:primaryType="cq:Template"
     jcr:title="foundationone Page"
-    allowedPaths="[/content/foundationone(/.*)?]"
+    allowedPaths="[/content(/.*)?]"
     ranking="{Long}90">
     <jcr:content
-        cq:allowedTemplates="[/apps/foundationone/templates/page]"
+        cq:allowedTemplates="[/apps/foundationone/templates/globalpage]"
         cq:template="/apps/foundationone/templates/globalpage"
         cq:designPath="/etc/designs/foundationone"
         jcr:primaryType="cq:PageContent"
