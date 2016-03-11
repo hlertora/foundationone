@@ -19,12 +19,19 @@
 
 	<head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="user-scalable=no">
-        
-        <!-- Include head.html from wcm/foundation/components/page -->
-        <meta data-sly-include="head.html" data-sly-unwrap></meta>
-    
-        <meta data-sly-call="${clientLib.css @ categories='foundationon'}" data-sly-unwrap></meta>
+    <meta charset="utf-8">
+    <title>foundationOne</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/content/dam/Foundation%20One%20Assets/favicon.ico">
+    <link rel="apple-touch-icon" href="/content/dam/Foundation%20One%20Assets/apple-touch-icon.png">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<meta data-sly-call="${clientLib.css @ categories='foundationon'}" data-sly-unwrap></meta>
+	<meta data-sly-call="${clientLib.js @ categories='foundationon'}" data-sly-unwrap></meta>
+	
+	    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300" rel="stylesheet" type="text/css">
     </head>
 
 	<body class="foundationon-body">
